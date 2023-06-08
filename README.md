@@ -22,6 +22,7 @@ ENV File
 
 1. Create a .env file
 PORT = 3000
+OPEN_API_KEY = 'YOUR_OPEN_API_KEY'
 
 
 
