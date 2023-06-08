@@ -22,8 +22,13 @@ ENV File
 
 1. Create a .env file
 PORT = 3000
-OPEN_API_KEY = 'YOUR_OPEN_API_KEY'
+OPENAI_API_KEY = 'YOUR_OPEN_API_KEY'
+OPENAI_ORGANIZATION_ID = 'YOUR_OPENAI_ORGANIZATION_ID'
 
+
+HOW DOES THE V0.0 WORKS
+1. Fine tune the model to become a seller for a product retail store.
+2. It fetches the business data from a csv file like google sheets and feeds the model as context every time a request is made.
 
 
 
